@@ -4,23 +4,24 @@ This is an API created for the technical test at https://bpdts-test-app.herokuap
 
 ## Installing/running the API
 
-The API is written in Python 3.6 using the Flask API library as well as various other dependencies which can be installed using the following command:
+The API is written in Python 3.6.0 using the Python Flask API library,  as well as various other dependencies which can be installed using the following command:
 
 ```
 pip install -r requirements.txt
 ```
 
-Then start the api by running the following command, which creates a server at http://127.0.0.1:5000/:
+Once the dependencies have been installed, start the api by running the following command, which creates a server at http://127.0.0.1:5000/:
 
 ```
-python3 dwpapi.py
+python dwpapi.py
 ```
 
 Run tests for the API using:
 
 ```
-python3 dwpapi_tests.py
+python dwpapi_tests.py
 ```
+(NOTE: There may be issues running the tests with Python versions < 3.0 due to differences between versions of the unittest library)
 
 ## Endpoints/Calling the API
 
